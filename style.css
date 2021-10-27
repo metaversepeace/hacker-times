@@ -1,1 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+.date {
+    padding-top: 1em;
+    padding-left: .4em;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align:center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 3em;
+}
+/*nav {
+    width: 100%;
+    height: 30px;
+    color: black;
+    display: inline-block;
+} */
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color:white;
+} 
+
+nav li {
+    display: inline-block;
+    padding-inline: 1em;
+    position: relative;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: grey;
+}
+
+h2 {
+    padding-left: .4em;
+    font-size: 2em;
+}
+
+h5{
+    color: red;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+article {
+    Padding-top:0.5em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 1.3em;
+}
+
+.banner {
+    width: 100%;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.more-articles {
+    display: flex;
+} 
+
+h4 {
+    font-size: 2em;
+    padding-left: 2.5em;
+}
+
+.bottom {
+    align-content: center;
+    width: 700px;
+    height: 300px;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+p {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 1.3em;
+}
